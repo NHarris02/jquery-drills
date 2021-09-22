@@ -6,7 +6,7 @@ btn.click(function (e) {
     //  let h2 = $(`<h2>`+ text + `</h2>`)
     let li = $(`<li>` + $('#myMessage').val() + `</li>`)
     let ul = $("<ul></ul>")
-    var colors = ['red', 'blue', 'green', 'grey']
+    var colors = ['red', 'blue', 'green', 'grey',`yellow`]
         
 
     li.click(function () {
